@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>the good travel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>The good travel</h1>
+        <img id="logo" src="img/logo.gif" alt="logo">
+    </header>
+    <main>
+        <section id="placesImg">
+            <div>
+                <img src="img/HAWAII.jpg" alt="hawai">
+            </div>
+
+            <div>
+                <img src="img/ITALY.png" alt="ITALY">
+            </div>
+            <div>
+                <img src="img/LONDON.png" alt="LONDON">
+            </div>
+            <div>
+                <img src="img/MALAYSIA.png" alt="MALAYSIA">
+            </div>
+
+            <div>
+                <img src="img/PARIS.png" alt="PARIS">
+            </div>
+            <div>
+                <img src="img/SLOVAKIA.png" alt="SLOVAKIA">
+            </div>
+        </section>
+
+        <form id="formId">
+            <fieldset>
+                <label for="place name"> place name</label>
+                <input type="text">
+                <label for="trip place"> trip place</label>
+                <input list="places">
+                <datalist id='listid'>
+                    <option value="HAWAII">
+                    <option value="PARIS">
+                    <option value="ITALY">
+                    <option value="LONDON">
+                    <option value="">
+                    <option value="">
+                </datalist>
+                <label for="type of transport"> transport</label>
+                <input type="text">
+                <input id="submitBtn" type="button" value="submit">
+            </fieldset>
+            <table id="tableId"></table>
+        </form>
+    </main>
+
+
+
+
+
+    <footer></footer>
+    <script src="app.js"></script>
+</body>
+
+</html>

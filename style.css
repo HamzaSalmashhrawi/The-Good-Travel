@@ -1,0 +1,48 @@
+
+#logo {
+    width: 15%;
+    float: left;
+    margin-top: -120px;
+}
+
+h1 { 
+    text-align: center;
+    margin-top: 60px;
+    
+    /* padding-top: 50px; */
+    /* padding-bottom: 50px; */
+    color: white;
+    font-size: 40px;
+}
+
+header{
+    background-color:  rgba(202, 240, 251, 255);
+}
+ 
+
+form {
+    float: left;
+    margin-top: -80px;
+}
+
+#placesImg img {
+    width: 10%;
+
+}
+ 
+#placesImg img {
+margin-right: -30rem;
+}
+
+#placesImg {
+    float: right;
+    margin-left: 50rem;
+    background-color: rgba(194, 190, 190, 0.80);
+}
+body {
+    background-image:  url('img/background.png');
+}
+
+form {
+    background-color: grey;
+}
